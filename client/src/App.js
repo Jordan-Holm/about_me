@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import MainNavbar from './components/shared/MainNavbar';
 import Nomatch from './components/shared/Nomatch';
 import Home from './components/home/Home';
-import Blog from './components/blog/Blog';
 import Portfolio from './components/portfolio/Portfolio';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -13,7 +12,6 @@ const App = () => (
     <MainNavbar />
     <Routes>
       <Route path='/' element={ <Home />} />
-      <Route path='/blog' element={ <Blog /> } />
       <Route path='/portfolio' element={ <Portfolio /> } />
       <Route path='/about' element={ <About /> } />
       <Route path='/contact' element={ <Contact /> }/>

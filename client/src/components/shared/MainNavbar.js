@@ -40,9 +40,22 @@ const MainNavbar = () => (
                     </NavDropdown>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="/blog">
-                        Blog
-                    </Nav.Link>
+                    <NavDropdown title="Blog" id="collasible-nav-dropdown">
+                        <NavDropdown.Item href="https://github.com/Jordan-Holm">
+                            GitHub
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="https://www.linkedin.com/in/jordanleeholm/">
+                            LinkedIn
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Header>Game Development</NavDropdown.Header>
+                        <NavDropdown.Item href="https://crunch-captain.itch.io/">
+                            Itch.Io
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="https://sketchfab.com/10790501">
+                            SketchFab
+                        </NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link eventKey={2} href="/contact">
                         Contact  Me
                     </Nav.Link>
