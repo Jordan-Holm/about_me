@@ -5,7 +5,8 @@ const Home = () => (
     <>
         <HomeHeader />
         <hr style={{
-            margin: "20px",
+            marginRight: "3vw",
+            marginLeft: "3vw",
             border: "5px solid #272201",
             borderRadius: "5px"
         }}/>

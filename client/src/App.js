@@ -6,19 +6,22 @@ import Portfolio from './components/portfolio/Portfolio';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 
-const App = () => (
-  <>
+const App = () => {
+  
+  return (
+    <>
 
-    <MainNavbar />
-    <Routes>
-      <Route path='/' element={ <Home />} />
-      <Route path='/portfolio' element={ <Portfolio /> } />
-      <Route path='/about' element={ <About /> } />
-      <Route path='/contact' element={ <Contact /> }/>
-      <Route path='/*' element={ <Nomatch /> } />
-    </Routes>
-    {/* <Home /> */}
-  </>
-)
+      <MainNavbar />
+      <Routes>
+        <Route path='/' element={ <Home />} />
+        <Route path='/portfolio' element={ <Portfolio /> } />
+        <Route path='/about' element={ <About /> } />
+        <Route path='/contact' element={ <Contact /> }/>
+        <Route path='/*' element={ <Nomatch /> } />
+      </Routes>
+      {/* <Home /> */}
+    </>
+  )
+}
 
 export default App;
