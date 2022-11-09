@@ -26,6 +26,7 @@ export const headerContainer = styled.div `
     background-position: center;
     background-size: contain;
     margin: 5vw;
+    margin-inline: 25vw;
     width: auto;
     padding: 15vw;
     border-radius: 10px;
@@ -37,17 +38,42 @@ export const cardContainer = styled.div `
     width: auto;
     height: auto;
     margin: 5vh;
-    margin-inline: 5vw;
+    margin-inline: auto;
+    align-items: center;
     border-radius: 10px;
     box-shadow: 6px 6px 5px #7c6c04;
+
+    Label {
+        font-size: 30px;
+        Margin: 2vh 0.25vw;
+    }
+
+`
+export const aboutCardContainer = styled.div `
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px #7c6c04;
+    text-align: center;
+    vertical-align: left;
+
+    h3 {
+        text-align: center;
+        vertical-align: left;
+        padding: 2vh;
+        text-decoration: underline;
+    }
 `
 export const cardImageContainer = styled.div`
     display: flex;
     justify-content: center;
 `
 export const CardImage = styled(Image)`
-    width: 40vw;
-    height: auto;
+    width: 25vw;
+    height: 30vw;
     margin: 10%;
     border-radius: 5px;
     box-shadow: 6px 6px 5px lightgrey;

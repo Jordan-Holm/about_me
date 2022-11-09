@@ -29,13 +29,16 @@ const MainNavbar = () => (
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Web Development</NavDropdown.Header>
-                        <NavDropdown.Item href="">
+                        {/* <NavDropdown.Item href="">
                             House of Sweets
-                        </NavDropdown.Item>
+                        </NavDropdown.Item> */}
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
-                        <NavDropdown.Item href="">
+                        <NavDropdown.Item href="https://crunch-captain.itch.io/">
                             Coin Thief
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/Jordan-Holm/UVU_DGM1610_Fall2021/tree/main/DGM-1610%20PERSONAL%20PROJECT/Assets/Scripts">
+                            Coin Thief Source Code
                         </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
