@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Container, Navbar, Nav, NavDropdown, Image} from "react-bootstrap";
 import { LogoNavImage, NavbarContainer } from "./Style"
 

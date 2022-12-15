@@ -31,7 +31,7 @@ export const headerContainer = styled.div `
     padding: 15vw;
     border-radius: 10px;
     text-align: center;
-
+    
     @media (max-width: 1399px) {
         h1 {
             font-size: 2vw;
