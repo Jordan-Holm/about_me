@@ -34,7 +34,7 @@ export const headerContainer = styled.div `
 
     @media (max-width: 1439px){
         h1 {
-            font-size: 2vw;
+            font-size: 3vw;
         }
     }
 `
