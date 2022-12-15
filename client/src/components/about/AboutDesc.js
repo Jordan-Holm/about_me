@@ -57,7 +57,7 @@ const AboutDesc = () => (
                 marginLeft: "5%",
                 marginRight: "5%"
             }}
-            sm={1} md={1} lg={2}
+            xs={1} sm={1} md={1} lg={2}
         >
             <Col>
                 <Col as={aboutCardContainer}>
