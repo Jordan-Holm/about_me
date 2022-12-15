@@ -31,6 +31,12 @@ export const headerContainer = styled.div `
     padding: 15vw;
     border-radius: 10px;
     text-align: center;
+
+    @media (max-width: 1439px){
+        h1 {
+            font-size: 2vw;
+        }
+    }
 `
 // HOMEPAGE ABOUT
 export const cardContainer = styled.div `

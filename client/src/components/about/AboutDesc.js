@@ -25,12 +25,12 @@ const AboutDesc = () => (
                 marginLeft: "5%",
                 marginRight: "5%"
             }}
-            sm={1} md={2}    
+            xs={1} sm={1} md={2}    
         >
             <Col>
                     <Col as={aboutCardContainer}>
                         <h3>Skill Set</h3>
-                        <p>React.js</p>
+                        <p>React</p>
                         <p>Ruby / Ruby on Rails</p>
                         <p>Python</p>
                         <p>C#</p>
