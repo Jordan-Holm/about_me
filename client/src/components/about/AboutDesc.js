@@ -36,6 +36,7 @@ const AboutDesc = () => (
                         <p>C#</p>
                         <p>PostgreSQL</p>
                         <p>Unity Game Engine</p>
+                        <p>GitHub</p>
                     </Col>
 
             </Col>
