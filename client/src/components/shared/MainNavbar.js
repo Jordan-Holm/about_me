@@ -1,4 +1,4 @@
-import { Container, Navbar, Nav, NavDropdown, Image} from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { LogoNavImage, NavbarContainer } from "./Style"
 
 const MainNavbar = () => (
