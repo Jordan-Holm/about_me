@@ -23,38 +23,70 @@ const MainNavbar = () => (
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">About Me</Nav.Link>
                     <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="https://github.com/Jordan-Holm">
+                        <NavDropdown.Item 
+                            href="https://github.com/Jordan-Holm"
+                            target="_blank"
+                            rel="noopener noreferrer"  
+                        >
                             GitHub
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Web Development</NavDropdown.Header>
-                        {/* <NavDropdown.Item href="">
-                            House of Sweets
-                        </NavDropdown.Item> */}
+                        <NavDropdown.Item 
+                            href="https://github.com/Jordan-Holm/aves_braids"
+                            target="_blank"
+                            rel="noopener noreferrer"    
+                        >
+                            Ave's Braids Source Code (In Development)
+                        </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
-                        <NavDropdown.Item href="https://crunch-captain.itch.io/">
+                        <NavDropdown.Item 
+                            href="https://crunch-captain.itch.io/"
+                            target="_blank"
+                            rel="noopener noreferrer" 
+                        >
                             Coin Thief
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="https://github.com/Jordan-Holm/UVU_DGM1610_Fall2021/tree/main/DGM-1610%20PERSONAL%20PROJECT/Assets/Scripts">
+                        <NavDropdown.Item 
+                            href="https://github.com/Jordan-Holm/UVU_DGM1610_Fall2021/tree/main/DGM-1610%20PERSONAL%20PROJECT/Assets/Scripts"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Coin Thief Source Code
                         </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav>
                     <NavDropdown title="Blog" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="https://github.com/Jordan-Holm">
+                        <NavDropdown.Item 
+                            href="https://github.com/Jordan-Holm"
+                            target="_blank"
+                            rel="noopener noreferrer"     
+                        >
                             GitHub
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="https://www.linkedin.com/in/jordanleeholm/">
+                        <NavDropdown.Item 
+                            href="https://www.linkedin.com/in/jordanleeholm/"
+                            target="_blank"
+                            rel="noopener noreferrer"     
+                        >
                             LinkedIn
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
-                        <NavDropdown.Item href="https://crunch-captain.itch.io/">
+                        <NavDropdown.Item 
+                            href="https://crunch-captain.itch.io/"
+                            target="_blank"  
+                            rel="noopener noreferrer"   
+                        >
                             Itch.Io
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="https://sketchfab.com/10790501">
+                        <NavDropdown.Item 
+                            href="https://sketchfab.com/10790501"
+                            target="_blank"  
+                            rel="noopener noreferrer"
+                        >
                             SketchFab
                         </NavDropdown.Item>
                     </NavDropdown>

@@ -19,6 +19,11 @@ const AboutDesc = () => (
                 </p>
             </Col>
         </Container>
+        <hr style={{
+            margin: "20px",
+            border: "5px solid #272201",
+            borderRadius: "5px"
+        }}/>
         <Row 
             style={{ 
                 marginInline: "auto",
@@ -43,10 +48,20 @@ const AboutDesc = () => (
             <Col>
                     <Col as={aboutCardContainer}>
                         <h3>Career Goals</h3>
-                        <p>Build portfolio with freelance work</p>
-                        <p>Find a mentor</p>
+                        <p>Build a portfolio with freelance work</p>
+                        <p style={{
+                            textDecorationLine: "line-through"
+                        }}
+                        >
+                            Find a mentor
+                        </p>
                         <p>Earn my first junior developer position</p>
-                        <p>Help mentor someone else in the industry</p>
+                        <p style={{
+                            textDecorationLine: "line-through"
+                        }}
+                        >
+                            Help mentor someone else in the industry
+                        </p>
                         <p>Work my way up to a team lead position</p>
                     </Col>
 
