@@ -79,11 +79,12 @@ export const cardImageContainer = styled.div`
     justify-content: center;
 `
 export const CardImage = styled(Image)`
-    width: 25vw;
-    height: 30vw;
+    width: 80%;
+    height: 80%;
     margin: 10%;
     border-radius: 5px;
     box-shadow: 6px 6px 5px lightgrey;
+    object-fit: cover;
 `
 export const cardText = styled.div`
     text-align: center;
