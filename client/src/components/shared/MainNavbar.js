@@ -23,6 +23,7 @@ const MainNavbar = () => (
                 <Nav className="me-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">About Me</Nav.Link>
+                    <Nav.Link href="/portfolio">UVU Portfolio</Nav.Link>
                     <NavDropdown title="Projects" id="collasible-nav-dropdown">
                         <NavDropdown.Item 
                             href="https://github.com/Jordan-Holm"

@@ -4,6 +4,7 @@ import Nomatch from './components/shared/Nomatch';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Portfolio from './components/portfolio/Portfolio';
 
 const App = () => {
   
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/' element={ <Home />} />
         <Route path='/about' element={ <About /> } />
         <Route path='/contact' element={ <Contact /> }/>
+        <Route path='/portfolio' element={ <Portfolio /> }/>
         <Route path='/*' element={ <Nomatch /> } />
       </Routes>
       {/* <Home /> */}

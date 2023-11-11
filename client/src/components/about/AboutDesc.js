@@ -80,12 +80,17 @@ const AboutDesc = () => (
                     <h3>Work Experience</h3>
                     <p>
                         <strong>Klos Guitars</strong><br />
-                        06/2022 - Current<br />
+                        06/2022 - 01/2023<br />
                         Guitar luthier & Team Lead
                     </p>
                     <p>
+                        <strong>Klos Guitars</strong><br />
+                        01/2022 - Current<br />
+                        Production Manager
+                    </p>
+                    <p>
                         <strong>DevPoint Labs</strong><br />
-                        11/2022 - Current<br />
+                        11/2022 - 03/2023<br />
                         Teacher's Assistant
                     </p>
                 </Col>
