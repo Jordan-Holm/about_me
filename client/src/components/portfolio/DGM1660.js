@@ -12,7 +12,6 @@ const DGM1660 = () => (
                 <Accordion.Header>Modeling</Accordion.Header>
                 <Accordion.Body>
                     <Row>
-                        <h6>Modeled Chair</h6>
                         <div class="sketchfab-embed-wrapper"> <iframe title="Finished Chair" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/938f0b797b2743248fb0e65b5f9191dd/embed?camera=0"> </iframe> </div>
                         <div class="sketchfab-embed-wrapper"> <iframe title="Wobble Chair" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/5d8a3a30dd204f6c956d71b308bff373/embed?camera=0"> </iframe> </div>
                         <div class="sketchfab-embed-wrapper"> <iframe title="Dining Set" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/05bdd8e2b9bc4c0f9efeb4f76f383f35/embed?camera=0"> </iframe> </div>

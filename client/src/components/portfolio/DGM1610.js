@@ -1,4 +1,4 @@
-import { Container, Accordion, Row, Col } from "react-bootstrap";
+import { Container, Accordion, Row, Col, Carousel } from "react-bootstrap";
 import { CardImage, cardContainer } from "../shared/Style";
 const DGM1610 = () => (
     <Container as={ cardContainer }>
@@ -57,18 +57,30 @@ const DGM1610 = () => (
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/h9UhPbz1srU?si=gEmM76P5JJYRH48O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </Col>
                     </Row>
-                    <CardImage 
-                        alt="Gameplay Image"
-                        src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738648/Personal%20Site/EKxZuX_yd6hvu.png"
-                    />
-                    <CardImage 
-                        alt="How to Play 1"
-                        src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738646/Personal%20Site/How_to_play_1_trqe4i.png"
-                    />
-                    <CardImage 
-                        alt="How to Play 2"
-                        src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738647/Personal%20Site/How_to_play_2_cd8qju.png"
-                    />
+                    <Carousel variant="dark">
+                        <Carousel.Item>
+                            <CardImage 
+                                alt="Gameplay Image"
+                                src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738648/Personal%20Site/EKxZuX_yd6hvu.png"
+                            />
+                            <Carousel.Caption>Gameplay</Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <CardImage 
+                                alt="How to Play 1"
+                                src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738646/Personal%20Site/How_to_play_1_trqe4i.png"
+                            />
+                            <Carousel.Caption>How to Play Page 1</Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <CardImage 
+                                alt="How to Play 2"
+                                src="https://res.cloudinary.com/dotykc1ws/image/upload/v1699738647/Personal%20Site/How_to_play_2_cd8qju.png"
+                            />
+                            <Carousel.Caption>How to Play Page 2</Carousel.Caption>
+
+                        </Carousel.Item>
+                    </Carousel>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>

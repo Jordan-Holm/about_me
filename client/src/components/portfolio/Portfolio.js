@@ -4,6 +4,7 @@ import DGM1610 from "./DGM1610";
 import DGM1110 from "./DGM1110";
 import DGM1620 from "./DGM1620";
 import CS1400 from "./CS1400";
+import PersonalLearning from "./PersonalLearning";
 
 const Portfolio = () => (
     <>
@@ -13,6 +14,7 @@ const Portfolio = () => (
         <DGM1110 />
         <DGM1620 />
         <CS1400 />
+        <PersonalLearning />
     </>
 )
 
