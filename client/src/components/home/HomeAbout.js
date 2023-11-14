@@ -13,7 +13,7 @@ const HomeAbout = () => (
             <Col as={cardText}>
                 <h3>About Me</h3>
                 <p><strong>Who</strong> | Jordan Holm</p>
-                <p><strong>What</strong> | Full-Stack Developer</p>
+                <p><strong>What</strong> | Indie Developer & Student</p>
                 <p><strong>When</strong> |  2022 - Present</p>
                 <p><strong>Where</strong> | Provo, Utah</p>
                 <p><strong>Why</strong> | Personal & Professional growth</p>

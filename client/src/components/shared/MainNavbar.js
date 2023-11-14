@@ -57,6 +57,13 @@ const MainNavbar = () => (
                         >
                             Coin Thief Source Code
                         </NavDropdown.Item>
+                        <NavDropdown.Item
+                            href="https://crunch-captain.itch.io/tycoon-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Tycoon Demo
+                        </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav>
