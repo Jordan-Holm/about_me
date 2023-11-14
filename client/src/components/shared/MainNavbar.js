@@ -44,7 +44,7 @@ const MainNavbar = () => (
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
                         <NavDropdown.Item 
-                            href="https://crunch-captain.itch.io/"
+                            href="https://crunch-captain.itch.io/coin-theif"
                             target="_blank"
                             rel="noopener noreferrer" 
                         >

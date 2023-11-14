@@ -47,7 +47,7 @@ const DGM1610 = () => (
                         <a href="https://github.com/Jordan-Holm/UVU_DGM1610_Fall2021/tree/main/DGM-1610%20PERSONAL%20PROJECT/Assets/Scripts">Scripts</a>
                     </Row>
                     <Row>
-                        <a href="">Itch.Io</a>
+                        <a href="https://crunch-captain.itch.io/coin-theif">Itch.Io</a>
                     </Row>
                     <Row>
                         <Col>

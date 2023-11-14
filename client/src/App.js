@@ -7,10 +7,11 @@ import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio';
 
 const App = () => {
+
   
+
   return (
     <>
-
       <MainNavbar />
       <Routes>
         <Route path='/' element={ <Home />} />
