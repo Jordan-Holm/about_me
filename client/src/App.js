@@ -6,6 +6,9 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio';
 
+import CoinThief from './components/games/CoinThief';
+import KnightlyRaid from './components/games/KnightlyRaid';
+
 const App = () => {
 
   
@@ -18,6 +21,8 @@ const App = () => {
         <Route path='/about' element={ <About /> } />
         <Route path='/contact' element={ <Contact /> }/>
         <Route path='/portfolio' element={ <Portfolio /> }/>
+        <Route path='/CoinThief' element={ <CoinThief /> } />
+        <Route path='/KnightlyRaid' element={ <KnightlyRaid /> } />
         <Route path='/*' element={ <Nomatch /> } />
       </Routes>
       {/* <Home /> */}

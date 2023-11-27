@@ -47,7 +47,8 @@ const DGM1610 = () => (
                         <a href="https://github.com/Jordan-Holm/UVU_DGM1610_Fall2021/tree/main/DGM-1610%20PERSONAL%20PROJECT/Assets/Scripts">Scripts</a>
                     </Row>
                     <Row>
-                        <a href="https://crunch-captain.itch.io/coin-theif">Itch.Io</a>
+                        <a href="https://real-tale-studio.itch.io/coin-theif">Itch.Io</a>
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/9097603?color=ffffff" allowfullscreen="" width="1440" height="1080"><a href="https://real-tale-studio.itch.io/coin-theif">Play Coin Theif on itch.io</a></iframe>
                     </Row>
                     <Row>
                         <Col>

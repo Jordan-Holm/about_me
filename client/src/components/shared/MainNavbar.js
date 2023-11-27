@@ -44,7 +44,7 @@ const MainNavbar = () => (
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
                         <NavDropdown.Item 
-                            href="https://crunch-captain.itch.io/coin-theif"
+                            href="/CoinThief"
                             target="_blank"
                             rel="noopener noreferrer" 
                         >
@@ -58,7 +58,14 @@ const MainNavbar = () => (
                             Coin Thief Source Code
                         </NavDropdown.Item>
                         <NavDropdown.Item
-                            href="https://crunch-captain.itch.io/tycoon-demo"
+                            href="/KnightlyRaid"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Knightly Raid
+                        </NavDropdown.Item>
+                        <NavDropdown.Item
+                            href="https://real-tale-studio.itch.io/tycoon-demo"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -85,7 +92,7 @@ const MainNavbar = () => (
                         <NavDropdown.Divider />
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
                         <NavDropdown.Item 
-                            href="https://crunch-captain.itch.io/"
+                            href="https://real-tale-studio.itch.io/"
                             target="_blank"  
                             rel="noopener noreferrer"   
                         >
