@@ -45,8 +45,6 @@ const MainNavbar = () => (
                         <NavDropdown.Header>Game Development</NavDropdown.Header>
                         <NavDropdown.Item 
                             href="/CoinThief"
-                            target="_blank"
-                            rel="noopener noreferrer" 
                         >
                             Coin Thief
                         </NavDropdown.Item>
@@ -59,8 +57,6 @@ const MainNavbar = () => (
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             href="/KnightlyRaid"
-                            target="_blank"
-                            rel="noopener noreferrer"
                         >
                             Knightly Raid
                         </NavDropdown.Item>
