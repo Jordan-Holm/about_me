@@ -22,7 +22,18 @@ const PersonalLearning = () => (
         <p>Position: Teacher's Assistant</p>
         <p>Employeed: 2022 Winter Cohort</p>
         <h3>UVU - Certificate of Proviciency - Digital Media</h3>
-        <p>Rewarded: 2021 Fall</p>
+        <p>Rewarded: December 18, 2021</p>
+        <Accordion>
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>Certificate</Accordion.Header>
+                <Accordion.Body>
+                    <CardImage 
+                        alt="Digital Media Certificate"
+                        src="https://res.cloudinary.com/dotykc1ws/image/upload/v1701289026/Screenshot_2023-11-29_131622_g9srmu.png"
+                    />
+                </Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
         <h3>NSLS Member</h3>
         <p>Joined: 2021 Fall</p>
         <Accordion>
